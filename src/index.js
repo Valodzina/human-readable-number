@@ -7,11 +7,12 @@ return mas[number];
 let fir;
 let sec;
 let thir;
+
 fir = number%10;
 sec= Math.trunc(number/10);
+
 if (number<100)
 {
-    
     if(fir===0)
     return m[sec-2];
     return m[sec-2]+" "+mas[fir];
